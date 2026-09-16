@@ -1,0 +1,504 @@
+[
+    {
+        "id": 1,
+        "word": ".",
+        "ipaUniqueList": [],
+        "ipaList": [],
+        "mp3List": [],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 2
+    },
+    {
+        "id": 2,
+        "word": "lounge",
+        "ipaUniqueList": [
+            {
+                "hash": "AxL",
+                "ipa": "laʊnʤ"
+            },
+            {
+                "hash": "gzQ",
+                "ipa": "laʊndʒ"
+            }
+        ],
+        "ipaList": [
+            {
+                "src": "BoldVoice",
+                "ipa": "laʊnʤ"
+            },
+            {
+                "src": "Forvo",
+                "ipa": "laʊndʒ"
+            },
+            {
+                "src": "Cambridge",
+                "ipa": "laʊndʒ"
+            },
+            {
+                "src": "Collins",
+                "ipa": "laʊndʒ"
+            }
+        ],
+        "mp3List": [
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/lounge__1__i()__h().mp3",
+                "votes": 8
+            },
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/lounge__2__i()__h().mp3",
+                "votes": 1
+            },
+            {
+                "src": "Cambridge",
+                "filePath": "mp3/Cambridge/lounge__1__i(laʊndʒ)__h(gzQ).mp3"
+            },
+            {
+                "src": "Collins",
+                "filePath": "mp3/Collins/lounge__1__i(laʊndʒ)__h(gzQ).mp3"
+            }
+        ],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 0
+    },
+    {
+        "id": 3,
+        "word": ".",
+        "ipaUniqueList": [],
+        "ipaList": [],
+        "mp3List": [],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 2
+    },
+    {
+        "id": 4,
+        "word": "clown",
+        "ipaUniqueList": [
+            {
+                "hash": "WQi",
+                "ipa": "klaʊn"
+            }
+        ],
+        "ipaList": [
+            {
+                "src": "BoldVoice",
+                "ipa": "klaʊn"
+            },
+            {
+                "src": "Forvo",
+                "ipa": "klaʊn"
+            },
+            {
+                "src": "Cambridge",
+                "ipa": "klaʊn"
+            },
+            {
+                "src": "Collins",
+                "ipa": "klaʊn"
+            }
+        ],
+        "mp3List": [
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/clown__1__i()__h().mp3",
+                "votes": 5
+            },
+            {
+                "src": "Cambridge",
+                "filePath": "mp3/Cambridge/clown__1__i(klaʊn)__h(WQi).mp3"
+            },
+            {
+                "src": "Collins",
+                "filePath": "mp3/Collins/clown__1__i(klaʊn)__h(WQi).mp3"
+            }
+        ],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 0
+    },
+    {
+        "id": 5,
+        "word": ".",
+        "ipaUniqueList": [],
+        "ipaList": [],
+        "mp3List": [],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 2
+    },
+    {
+        "id": 6,
+        "word": "allow",
+        "ipaUniqueList": [
+            {
+                "hash": "4Dl",
+                "ipa": "ʌ 'laʊ"
+            },
+            {
+                "hash": "jlt",
+                "ipa": "əˈlaʊ"
+            }
+        ],
+        "ipaList": [
+            {
+                "src": "BoldVoice",
+                "ipa": "ʌ 'laʊ"
+            },
+            {
+                "src": "Forvo",
+                "ipa": "əˈlaʊ"
+            },
+            {
+                "src": "Cambridge",
+                "ipa": "əˈlaʊ"
+            },
+            {
+                "src": "Collins",
+                "ipa": "əˈlaʊ"
+            }
+        ],
+        "mp3List": [
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/allow__1__i()__h().mp3",
+                "votes": 16
+            },
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/allow__2__i()__h().mp3",
+                "votes": 6
+            },
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/allow__3__i()__h().mp3",
+                "votes": 2
+            },
+            {
+                "src": "Cambridge",
+                "filePath": "mp3/Cambridge/allow__1__i(əˈlaʊ)__h(jlt).mp3"
+            },
+            {
+                "src": "Collins",
+                "filePath": "mp3/Collins/allow__1__i(əˈlaʊ)__h(jlt).mp3"
+            }
+        ],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 0
+    },
+    {
+        "id": 7,
+        "word": ".",
+        "ipaUniqueList": [],
+        "ipaList": [],
+        "mp3List": [],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 2
+    },
+    {
+        "id": 8,
+        "word": "cloud",
+        "ipaUniqueList": [
+            {
+                "hash": "fTZ",
+                "ipa": "klaʊd"
+            }
+        ],
+        "ipaList": [
+            {
+                "src": "BoldVoice",
+                "ipa": "klaʊd"
+            },
+            {
+                "src": "Forvo",
+                "ipa": "klaʊd"
+            },
+            {
+                "src": "Cambridge",
+                "ipa": "klaʊd"
+            },
+            {
+                "src": "Collins",
+                "ipa": "klaʊd"
+            }
+        ],
+        "mp3List": [
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/cloud__1__i()__h().mp3",
+                "votes": 12
+            },
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/cloud__2__i()__h().mp3",
+                "votes": 3
+            },
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/cloud__3__i()__h().mp3",
+                "votes": 1
+            },
+            {
+                "src": "Cambridge",
+                "filePath": "mp3/Cambridge/cloud__1__i(klaʊd)__h(fTZ).mp3"
+            },
+            {
+                "src": "Collins",
+                "filePath": "mp3/Collins/cloud__1__i(klaʊd)__h(fTZ).mp3"
+            }
+        ],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 0
+    },
+    {
+        "id": 9,
+        "word": ".",
+        "ipaUniqueList": [],
+        "ipaList": [],
+        "mp3List": [],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 2
+    },
+    {
+        "id": 10,
+        "word": "proud",
+        "ipaUniqueList": [
+            {
+                "hash": "etD",
+                "ipa": "pɹaʊd"
+            },
+            {
+                "hash": "INc",
+                "ipa": "praʊd"
+            }
+        ],
+        "ipaList": [
+            {
+                "src": "BoldVoice",
+                "ipa": "pɹaʊd"
+            },
+            {
+                "src": "Forvo",
+                "ipa": "praʊd"
+            },
+            {
+                "src": "Cambridge",
+                "ipa": "praʊd"
+            },
+            {
+                "src": "Collins",
+                "ipa": "praʊd"
+            }
+        ],
+        "mp3List": [
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/proud__1__i()__h().mp3",
+                "votes": 8
+            },
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/proud__2__i()__h().mp3",
+                "votes": 3
+            },
+            {
+                "src": "Cambridge",
+                "filePath": "mp3/Cambridge/proud__1__i(praʊd)__h(INc).mp3"
+            },
+            {
+                "src": "Collins",
+                "filePath": "mp3/Collins/proud__1__i(praʊd)__h(INc).mp3"
+            }
+        ],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 0
+    },
+    {
+        "id": 11,
+        "word": ".",
+        "ipaUniqueList": [],
+        "ipaList": [],
+        "mp3List": [],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 2
+    },
+    {
+        "id": 12,
+        "word": "loud",
+        "ipaUniqueList": [
+            {
+                "hash": "PNV",
+                "ipa": "laʊd"
+            }
+        ],
+        "ipaList": [
+            {
+                "src": "BoldVoice",
+                "ipa": "laʊd"
+            },
+            {
+                "src": "Forvo",
+                "ipa": "laʊd"
+            },
+            {
+                "src": "Cambridge",
+                "ipa": "laʊd"
+            },
+            {
+                "src": "Collins",
+                "ipa": "laʊd"
+            }
+        ],
+        "mp3List": [
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/loud__1__i()__h().mp3",
+                "votes": 11
+            },
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/loud__2__i()__h().mp3",
+                "votes": 5
+            },
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/loud__3__i()__h().mp3",
+                "votes": 1
+            },
+            {
+                "src": "Cambridge",
+                "filePath": "mp3/Cambridge/loud__1__i(laʊd)__h(PNV).mp3"
+            },
+            {
+                "src": "Collins",
+                "filePath": "mp3/Collins/loud__1__i(laʊd)__h(PNV).mp3"
+            }
+        ],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 0
+    },
+    {
+        "id": 13,
+        "word": ".",
+        "ipaUniqueList": [],
+        "ipaList": [],
+        "mp3List": [],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 2
+    },
+    {
+        "id": 14,
+        "word": "crowd",
+        "ipaUniqueList": [
+            {
+                "hash": "Vp8",
+                "ipa": "kɹaʊd"
+            },
+            {
+                "hash": "AIU",
+                "ipa": "kraʊd"
+            }
+        ],
+        "ipaList": [
+            {
+                "src": "BoldVoice",
+                "ipa": "kɹaʊd"
+            },
+            {
+                "src": "Forvo",
+                "ipa": "kraʊd"
+            },
+            {
+                "src": "Cambridge",
+                "ipa": "kraʊd"
+            },
+            {
+                "src": "Collins",
+                "ipa": "kraʊd/kraʊd"
+            }
+        ],
+        "mp3List": [
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/crowd__1__i()__h().mp3",
+                "votes": 17
+            },
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/crowd__2__i()__h().mp3",
+                "votes": 2
+            },
+            {
+                "src": "Forvo",
+                "filePath": "mp3/Forvo/crowd__3__i()__h().mp3",
+                "votes": 1
+            },
+            {
+                "src": "Cambridge",
+                "filePath": "mp3/Cambridge/crowd__1__i(kraʊd)__h(AIU).mp3"
+            },
+            {
+                "src": "Collins",
+                "filePath": "mp3/Collins/crowd__1__i(kraʊd)__h(AIU).mp3"
+            },
+            {
+                "src": "Collins",
+                "filePath": "mp3/Collins/crowd__2__i(kraʊd)__h(AIU).mp3"
+            }
+        ],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 0
+    },
+    {
+        "id": 15,
+        "word": ".",
+        "ipaUniqueList": [],
+        "ipaList": [],
+        "mp3List": [],
+        "wordStress": false,
+        "myNotes": "",
+        "defaultIpa": "",
+        "defaultMp3FilePath": "",
+        "tokenType": 2
+    }
+]
