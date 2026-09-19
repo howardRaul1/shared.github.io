@@ -1,0 +1,316 @@
+:root {
+    --lv34-height-percent: 0.5;
+    --border-color: #444;
+    --font-scale: 1;
+}
+
+body {
+    background: #333;
+    color: #fff;
+    margin: 0px;
+}
+
+.lv2 {
+    background: #505;
+}
+
+.lv3 {
+    background: #303;
+}
+
+.forvo-item {
+    background: #024;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    background: #000;
+    align-items: flex-end;
+}
+
+.box {
+    width: max-content;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: calc(16px * var(--font-scale));
+}
+
+.empty-jword {
+    --font-scale: 1;
+}
+
+.other-punctuation {
+    --font-scale: 1.4;
+}
+
+/* Lv2: chosen IPA */
+.lv2 {
+    height: 40px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Lv1: word */
+.word {
+    height: 40px;
+    border: 1px solid var(--border-color);
+    border-radius: 0 0 18px 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.lv0, .lvB1 {
+    height: 15px;
+    border: 1px solid var(--border-color);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+/* Lv3: IPA choices */
+.lv3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ipa-item {
+    height: calc(40px * var(--lv34-height-percent));
+    font-size: calc(clamp(
+        18px,
+        calc(16px * var(--lv34-height-percent)),
+        16px
+    ) * var(--font-scale));
+    line-height: 0;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+/* Selected Lv3 IPA choice */
+.ipa-item.selected {
+  color: cyan;
+}
+
+.lv4-lv5-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  border: 1px solid magenta;
+}
+
+/* Lv4: Forvo choices */
+.lv4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.forvo-item {
+    height: calc(40px * var(--lv34-height-percent));
+    font-size: calc(clamp(
+        16px,
+        calc(16px * var(--lv34-height-percent)),
+        16px
+    ) * var(--font-scale));
+    line-height: 0;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* Lv5: non-Forvo MP3 choices */
+
+.lv5 {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Lv5 subdivision */
+.mp3-item {
+    position: relative;
+}
+
+/* Lv5 > button */
+.lv5-button {
+    position: absolute;
+    left: 0px;
+    top: 75%;
+    transform: translateY(-50%);
+
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+
+    background: #0007;
+    border: 0px solid #555;
+    appearance: none;
+
+    color: #fff4;
+    font: inherit;
+    line-height: 0.6;
+
+    cursor: pointer;
+}
+
+/* Lv5 IPA text */
+.lv5-ipa {
+    text-align: center;
+}
+
+.lv3,
+.lv4,
+.lv5 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+/* Collins Lv5 subdivisions */
+.collins-item {background: #400;}
+
+/* Cambridge Lv5 subdivisions */
+.cambridge-item {background: #530;}
+
+/* Common Lv5 subdivision styling */
+.mp3-item {
+    height: calc(40px * var(--lv34-height-percent));
+    font-size: calc(clamp(
+        16px,
+        calc(16px * var(--lv34-height-percent)),
+        16px
+    ) * var(--font-scale));
+    line-height: 0;
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.lv5.phrase-ending-punctuation,
+.lv4.phrase-ending-punctuation,
+.lv3.phrase-ending-punctuation {
+    height: calc(40px * var(--lv34-height-percent));
+    border: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lv4.phrase-ending-punctuation {
+    border-radius: 0 0 18px 18px;
+}
+
+.phrase-ending-punctuation { 
+  background: #999;
+  color: #000;
+  min-width: 30px;
+  cursor: pointer;
+}
+
+.lv4.lv1-mp3-exists  { background: #6a6; }
+
+.lv1.lv1-mp3-exists  { background: #060; color: #fff; }
+
+#TL_ButtonContainer {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+}
+
+#TL_ButtonContainer button {
+    background: #eeea;
+    border: 1px solid navy;
+    font-size: 1em;
+    padding: 0;
+    height: 18px;
+    line-height: 0.8;
+}
+
+.box *[hidden] { display: none; }
+
+.runtime-word-stress + .lv0 {
+  background: #d80;
+}
+
+html::after {
+    content: "";
+    display: block;
+    height: 800vh;
+}
+
+  #TL_SaveButton
+, #TL_ClearBookmarksButton  
+, .lv4.phrase-ending-punctuation 
+, .lv5.phrase-ending-punctuation 
+, .lvB1.phrase-ending-punctuation 
+{ 
+  font-family: oswald, Cousine, sans-serif;
+}
+
+.lv5.phrase-ending-punctuation { font-size: 0.8em; }
+.lv4.phrase-ending-punctuation { font-size: 0.8em; border: 1px solid magenta; }
+.lv3.phrase-ending-punctuation { font-size: 1.2em; font-family: Arial; }
+.lv1.phrase-ending-punctuation { border: 1px solid magenta; }
+.lv0.phrase-ending-punctuation { font-size: 0.8em; }
+
+button#TL_ClearBookmarksButton  { font-size: 0.8em; }
+
+  .lv0.phrase-ending-punctuation 
+, .lvB1.phrase-ending-punctuation {
+  background: #000;
+  color: #888;
+}
+
+.lvB1.bookmarked {
+    background: #157EFB !important;
+}
+
+.lvB1.phrase-ending-punctuation {
+  font-size: 0.7em ; 
+}
+
+@keyframes phrase-ending-punctuation-flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.phrase-ending-punctuation.flash-slowly-once,
+#TL_SaveButton.flash-slowly-once {
+    animation: phrase-ending-punctuation-flash 1.2s ease-in-out 1;
+}
+
+
+
+

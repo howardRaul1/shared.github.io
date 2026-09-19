@@ -1,0 +1,5 @@
+I’m a data engineer with over 10 years of experience building data pipelines, data platforms, and analytics solutions.  
+
+I’ve worked extensively with ETL, data warehousing, cloud platforms, and large datasets. 
+
+I enjoy solving complex data problems and building reliable, scalable solutions that support business decisions.

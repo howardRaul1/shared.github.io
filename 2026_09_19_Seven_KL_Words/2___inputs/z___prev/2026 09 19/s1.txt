@@ -1,0 +1,47 @@
+Bob: Can I share my screen?
+
+Amy: Sure. Can you see my screen now?
+
+Bob: Yes, I can. Are you sharing your screen as well?
+
+Amy: No, I’m not. What’s the matter?
+
+Bob: The pipeline didn’t run earlier, and I couldn’t figure out why. I’ve already done the basic checks, but I haven’t verified the root cause yet.
+
+Amy: Did you disable the validation step?
+
+Bob: No, I didn’t. I actually tried to enable it, but the Button didn’t work. I’m gonna test this again later.
+
+Amy: Okay. You don’t need them right now. You just set it to default, good to go.
+
+Bob: That works, but I have one quick question. We have several data sources, so I think it’s important to separate the historical data from the new data and process them separately.
+
+Amy: I agree. We could increase the batch size a little bit, but we shouldn’t overestimate what the system can handle or underestimate how much data we’ll receive later.
+
+Bob: Exactly. No matter how many records there are, we need to verify the results. We could also decrease the number of unnecessary API calls and downgrade the pipeline if the new version causes problems.
+
+Amy: Or we could upgrade it later. It would be better to test everything first rather than make another change now.
+
+Bob: Right. The refund records are particularly important. We need to record every refund correctly, and we should process as little data as possible when we run the test.
+
+Amy: Did you consider the possibility that the problem is related to the previous configuration?
+
+Bob: Yes. I couldn’t have known that earlier because the error didn’t appear until today. I know who and what you are referring to, but I don’t think that’s the issue.
+
+Manager: Okay, what’s the matter with the current version?
+
+Bob: Nothing major. Certain checks are already done, but a few things are not yet verified.
+
+Manager: Then test it again. If that works, we can easily upgrade the pipeline later.
+
+Amy: Sounds good. Also, just one quick question, would you like to let Amy lead the project?
+
+Manager: Yes, that would make sense. Amy can coordinate the testing, and Alex can handle the data engineering work.
+
+Bob: No problem. We can do it earlier or later depending on the results.
+
+Amy: Great. Then let's keep the configuration as simple as possible and change only what we need.
+
+Bob: Nuance matters.
+
+
